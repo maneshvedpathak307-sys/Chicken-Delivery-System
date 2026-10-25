@@ -1,0 +1,374 @@
+.admin-dashboard-page {
+  min-height: 100vh;
+  padding: 30px 20px 55px;
+  background: #f7f8fa;
+  color: #242424;
+}
+
+.ad-container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.ad-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+
+.ad-eyebrow {
+  color: #c62828;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.ad-page-header h1 {
+  margin: 8px 0;
+  font-size: clamp(27px, 4vw, 36px);
+  font-weight: 800;
+}
+
+.ad-page-header p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.ad-refresh-button,
+.ad-error button {
+  min-height: 42px;
+  padding: 0 17px;
+  border: 1px solid #e6c7c7;
+  border-radius: 9px;
+  background: #fff;
+  color: #c62828;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.ad-refresh-button:hover,
+.ad-error button:hover {
+  background: #fff3f3;
+}
+
+.ad-refresh-button:active,
+.ad-error button:active {
+  transform: scale(0.98);
+}
+
+/* WELCOME BANNER */
+
+.ad-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding: 28px 30px;
+  border-radius: 16px;
+  background: linear-gradient(120deg, #a91f25, #e33434);
+  color: #fff;
+}
+
+.ad-welcome > div:first-child {
+  max-width: 650px;
+}
+
+.ad-welcome > div > span {
+  color: #ffe0e0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.ad-welcome h2 {
+  margin: 9px 0;
+  font-size: clamp(23px, 3vw, 31px);
+}
+
+.ad-welcome p {
+  margin: 0;
+  color: #ffeded;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.ad-welcome-icon {
+  display: grid;
+  width: 76px;
+  height: 76px;
+  flex-shrink: 0;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 38px;
+}
+
+/* DASHBOARD STATISTICS */
+
+.ad-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+  margin-bottom: 30px;
+}
+
+.ad-stat-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 0;
+  padding: 21px;
+  border: 1px solid #ededed;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.025);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ad-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.05);
+}
+
+.ad-stat-icon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: 13px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.ad-stat-icon.red {
+  background: #fff0f0;
+  color: #c62828;
+}
+
+.ad-stat-icon.orange {
+  background: #fff4e5;
+  color: #bd6b00;
+}
+
+.ad-stat-icon.green {
+  background: #e7f8ec;
+  color: #168143;
+}
+
+.ad-stat-icon.purple {
+  background: #f0eaff;
+  color: #7045b5;
+}
+
+.ad-stat-icon.blue {
+  background: #e8f1ff;
+  color: #2762ac;
+}
+
+.ad-stat-icon.gray {
+  background: #eeeeee;
+  color: #666;
+}
+
+.ad-stat-card p {
+  margin: 0 0 8px;
+  color: #777;
+  font-size: 12px;
+}
+
+.ad-stat-card h2 {
+  margin: 0;
+  overflow-wrap: anywhere;
+  font-size: clamp(19px, 2.3vw, 25px);
+  font-weight: 800;
+}
+
+/* QUICK LINKS */
+
+.ad-quick-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.ad-quick-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  min-width: 0;
+  padding: 19px;
+  border: 1px solid #ededed;
+  border-radius: 13px;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.ad-quick-link:hover {
+  transform: translateY(-2px);
+  border-color: #e8baba;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.04);
+}
+
+.ad-quick-link > span:first-child {
+  font-size: 25px;
+}
+
+.ad-quick-link > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.ad-quick-link strong {
+  font-size: 13px;
+}
+
+.ad-quick-link p {
+  margin: 8px 0 0;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.ad-arrow {
+  color: #c62828;
+  font-size: 18px;
+}
+
+/* LOADING AND ERROR STATES */
+
+.ad-loading,
+.ad-error {
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  color: #777;
+  text-align: center;
+}
+
+.ad-error p {
+  max-width: 450px;
+  line-height: 1.7;
+}
+
+/* TABLET RESPONSIVE */
+
+@media (max-width: 900px) {
+  .ad-stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ad-quick-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 560px) {
+  .admin-dashboard-page {
+    padding: 22px 13px 40px;
+  }
+
+  .ad-page-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ad-welcome {
+    padding: 22px 19px;
+  }
+
+  .ad-welcome-icon {
+    width: 51px;
+    height: 51px;
+    border-radius: 13px;
+    font-size: 27px;
+  }
+
+  .ad-stats-grid {
+    gap: 10px;
+  }
+
+  .ad-stat-card {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .ad-stat-icon {
+    width: 39px;
+    height: 39px;
+    font-size: 18px;
+  }
+}
+
+/* Returned / Refunds card */
+
+.ad-stat-icon.teal {
+  background: #e3f7f5;
+  color: #087f75;
+}
+
+/* Keep card labels and values aligned */
+
+.ad-stat-content {
+  min-width: 0;
+}
+
+.ad-stat-content p {
+  line-height: 1.5;
+}
+
+/* Automatic refresh note */
+
+.ad-live-note {
+  margin: -15px 0 25px;
+  color: #777;
+  font-size: 12px;
+}
+
+/* Error while retaining previously loaded statistics */
+
+.ad-inline-error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  border: 1px solid #f1c4c4;
+  border-radius: 10px;
+  background: #fff3f3;
+  color: #a91f25;
+  font-size: 13px;
+}
+
+.ad-inline-error button {
+  padding: 7px 12px;
+  border: 1px solid #e6c7c7;
+  border-radius: 7px;
+  background: #fff;
+  color: #a91f25;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ad-refresh-button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}

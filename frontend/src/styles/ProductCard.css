@@ -1,0 +1,155 @@
+.product-card {
+display: flex;
+flex-direction: column;
+min-width: 0;
+height: 100%;
+overflow: hidden;
+background: #ffffff;
+border: 1px solid #f0e5e3;
+border-radius: 18px;
+box-shadow: 0 5px 20px rgba(50, 25, 25, 0.06);
+transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 28px rgba(50, 25, 25, 0.12);
+}
+
+.product-card-image-wrap {
+position: relative;
+width: 100%;
+height: 210px;
+overflow: hidden;
+background: #fff2ef;
+}
+
+.product-card-image {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.35s ease;
+}
+
+.product-card:hover .product-card-image {
+transform: scale(1.04);
+}
+
+.product-card-badge {
+position: absolute;
+top: 12px;
+left: 12px;
+padding: 6px 11px;
+color: #a92736;
+background: #ffffff;
+border-radius: 20px;
+font-size: 11px;
+font-weight: 700;
+}
+
+.product-card-content {
+display: flex;
+flex: 1;
+flex-direction: column;
+padding: 17px;
+}
+
+.product-card-title {
+margin: 0 0 9px;
+color: #24212b;
+font-size: 18px;
+font-weight: 750;
+line-height: 1.4;
+}
+
+.product-card-description {
+display: -webkit-box;
+min-height: 42px;
+margin: 0 0 18px;
+overflow: hidden;
+color: #77727d;
+font-size: 13px;
+line-height: 1.6;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+}
+
+.product-card-bottom {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+margin-top: auto;
+}
+
+.product-card-price {
+color: #a92736;
+font-size: 21px;
+font-weight: 800;
+white-space: nowrap;
+}
+
+.product-card-price span {
+margin-right: 2px;
+}
+
+.product-card-price small {
+color: #77727d;
+font-size: 11px;
+font-weight: 500;
+}
+
+.product-card-add-button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 6px;
+min-height: 40px;
+padding: 9px 13px;
+color: #ffffff;
+background: #b52d3d;
+border: none;
+border-radius: 10px;
+font-size: 12px;
+font-weight: 700;
+cursor: pointer;
+transition: background 0.2s ease;
+}
+
+.product-card-add-button:hover:not(:disabled) {
+background: #8f1f2e;
+}
+
+.product-card-add-button:disabled {
+opacity: 0.5;
+cursor: not-allowed;
+}
+
+.product-card-add-button span {
+font-size: 18px;
+line-height: 1;
+}
+
+@media (max-width: 480px) {
+.product-card-image-wrap {
+height: 165px;
+}
+
+.product-card-content {
+padding: 12px;
+}
+
+.product-card-title {
+font-size: 16px;
+}
+
+.product-card-bottom {
+align-items: flex-start;
+flex-direction: column;
+}
+
+.product-card-add-button {
+width: 100%;
+}
+}
