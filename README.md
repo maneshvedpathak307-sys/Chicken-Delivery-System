@@ -474,7 +474,7 @@ The following screenshots demonstrate the main FreshNest application pages.
 
 15. Customer Profile
 
-"FreshNest Customer Profile" (./screenshots/15.My_Profile.jpeg)
+![FreshNest Customer Profile](./screenshots/15.My_Profile.jpeg)
 
 ---
 
