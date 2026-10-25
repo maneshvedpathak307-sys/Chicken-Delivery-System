@@ -466,7 +466,7 @@ The following screenshots demonstrate the main FreshNest application pages.
 
 13. Order Details
 
-[!FreshNest Order Details](./screenshots/13.Order_Details.jpeg)
+![FreshNest Order Details](./screenshots/13.Order_Details.jpeg)
 
 14. My Orders
 
