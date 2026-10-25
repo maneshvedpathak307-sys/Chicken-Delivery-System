@@ -418,59 +418,59 @@ The following screenshots demonstrate the main FreshNest application pages.
 
 1. Guest Home Page
 
-"FreshNest Guest Home" (./screenshots/01.Guest_Home.jpeg)
+![FreshNest Guest Home](./screenshots/01.Guest_Home.jpeg)
 
 2. Login Page
 
-"FreshNest Login Page" (./screenshots/02.Login_Page.jpeg)
+![FreshNest Login Page](./screenshots/02.Login_Page.jpeg)
 
 3. Create Account
 
-"FreshNest Create Account" (./screenshots/03.Create_Account.jpeg)
+![FreshNest Create Account](./screenshots/03.Create_Account.jpeg)
 
 4. Admin Dashboard
 
-"FreshNest Admin Dashboard" (./screenshots/04.Admin_Dashboard.jpeg)
+![FreshNest Admin Dashboard](./screenshots/04.Admin_Dashboard.jpeg)
 
 5. Admin Product Management
 
-"FreshNest Admin Products" (./screenshots/05.Admin_Products.jpeg)
+![FreshNest Admin Products](./screenshots/05.Admin_Products.jpeg)
 
 6. Admin Order Management
 
-"FreshNest Admin Orders" (./screenshots/06.Admin_Orders.jpeg)
+![FreshNest Admin Orders](./screenshots/06.Admin_Orders.jpeg)
 
 7. Admin Reports
 
-"FreshNest Admin Reports" (./screenshots/07.Admin_Reports.jpeg)
+![FreshNest Admin Reports](./screenshots/07.Admin_Reports.jpeg)
 
 8. PDF Report
 
-"FreshNest PDF Report" (./screenshots/08.Report_pdf.jpeg)
+![FreshNest PDF Report](./screenshots/08.Report_pdf.jpeg)
 
 9. Customer Home Page
 
-"FreshNest Customer Home" (./screenshots/09.User_Home.jpeg)
+![FreshNest Customer Home](./screenshots/09.User_Home.jpeg)
 
 10. Product Catalogue
 
-"FreshNest Products" (./screenshots/10.User_Products.jpeg)
+![FreshNest Products](./screenshots/10.User_Products.jpeg)
 
 11. Shopping Cart
 
-"FreshNest Shopping Cart" (./screenshots/11.My_Cart.jpeg)
+![FreshNest Shopping Cart](./screenshots/11.My_Cart.jpeg)
 
 12. Checkout Page
 
-"FreshNest Checkout" (./screenshots/12.Checkout.jpeg)
+![FreshNest Checkout](./screenshots/12.Checkout.jpeg)
 
 13. Order Details
 
-"FreshNest Order Details" (./screenshots/13.Order_Details.jpeg)
+[!FreshNest Order Details](./screenshots/13.Order_Details.jpeg)
 
 14. My Orders
 
-"FreshNest My Orders" (./screenshots/14.User_Orders.jpeg)
+![FreshNest My Orders](./screenshots/14.User_Orders.jpeg)
 
 15. Customer Profile
 
