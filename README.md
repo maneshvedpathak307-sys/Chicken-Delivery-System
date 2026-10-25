@@ -1,12 +1,12 @@
-🐔 FreshNest – Chicken Delivery System
+# 🐔 FreshNest – Chicken Delivery System
 
-A modern full-stack Chicken Delivery Web Application built with React, Java 21, Spring Boot, and MySQL. FreshNest allows customers to browse fresh chicken products, manage shopping carts, place orders, view order details, manage delivery addresses, and maintain their profiles through a user-friendly interface.
+A modern full-stack **Chicken Delivery Web Application** built with React, Java 21, Spring Boot, and MySQL. FreshNest allows customers to browse fresh chicken products, manage shopping carts, place orders, view order details, manage delivery addresses, and maintain their profiles through a user-friendly interface.
 
 The application also provides an Admin Dashboard for product management, order processing, return requests, and report generation with PDF export.
 
 ---
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 FreshNest is designed to simplify online chicken ordering and delivery management through a centralized web application.
 
@@ -18,9 +18,9 @@ The application follows a full-stack architecture with a React frontend, a Sprin
 
 ---
 
-✨ Key Features
+## ✨ Key Features
 
-🔐 Authentication and Security
+### 🔐 Authentication and Security
 
 - User Registration and Login
 - JWT-Based Authentication
@@ -31,7 +31,7 @@ The application follows a full-stack architecture with a React frontend, a Sprin
 - Authenticated API Requests
 - Secure Access to Protected Resources
 
-🛍️ Customer Module
+### 🛍️ Customer Module
 
 Customers can:
 
@@ -50,7 +50,7 @@ Customers can:
 - Create Return Requests
 - View Return Request Status
 
-👨‍💼 Admin Module
+### 👨‍💼 Admin Module
 
 Administrators can:
 
@@ -63,7 +63,7 @@ Administrators can:
 - View Reports and Summary Information
 - Generate and Download PDF Reports
 
-🎨 User Interface
+### 🎨 User Interface
 
 - FreshNest Branding
 - Responsive React Interface
@@ -76,9 +76,9 @@ Administrators can:
 
 ---
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
-Frontend
+### Frontend
 
 - React.js
 - JavaScript
@@ -87,7 +87,7 @@ Frontend
 - Axios
 - React Router
 
-Backend
+### Backend
 
 - Java 21
 - Spring Boot 3.5.4
@@ -98,11 +98,11 @@ Backend
 - Maven
 - REST APIs
 
-Database
+### Database
 
 - MySQL 8
 
-Development Tools
+### Development Tools
 
 - Visual Studio Code
 - MySQL Workbench / MySQL Command Line
@@ -113,10 +113,11 @@ Development Tools
 
 ---
 
-🔄 Application Flow
+## 🔄 Application Flow
 
-Customer Flow
+### Customer Flow
 
+```text
 Guest Home Page
        |
        v
@@ -145,9 +146,11 @@ Order Details
        |
        v
 Return Request
+```
 
-Admin Flow
+### Admin Flow
 
+```text
 Admin Login
      |
      v
@@ -163,12 +166,13 @@ Admin Dashboard
               |
               v
            PDF Export
+```
 
 ---
 
-👥 User Roles
+## 👥 User Roles
 
-ADMIN
+### ADMIN
 
 The administrator manages the application's operational activities.
 
@@ -179,7 +183,7 @@ The administrator manages the application's operational activities.
 - View Reports
 - Generate PDF Reports
 
-CUSTOMER
+### CUSTOMER
 
 Customers can use the application to purchase products online.
 
@@ -196,10 +200,11 @@ Customers can use the application to purchase products online.
 
 ---
 
-🏗️ Project Architecture
+## 🏗️ Project Architecture
 
 FreshNest uses a full-stack architecture in which the frontend communicates with the backend through REST APIs.
 
+```text
 FreshNest – Chicken Delivery System
               |
               v
@@ -217,13 +222,15 @@ FreshNest – Chicken Delivery System
               |
               v
          MySQL Database
+```
 
 The frontend handles the user interface and API requests. The backend manages authentication, authorization, business logic, and database operations. MySQL stores application data.
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 Chicken-Delivery-System/
 │
 ├── backend/
@@ -282,10 +289,11 @@ Chicken-Delivery-System/
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
-🗄️ Database Overview
+## 🗄️ Database Overview
 
 FreshNest uses MySQL to store and manage application data.
 
@@ -306,24 +314,24 @@ The database schema and relationships are defined by the backend entity classes 
 
 ---
 
-🔌 Backend API
+## 🔌 Backend API
 
-Base URL
+### Base URL
 
+```text
 http://localhost:8080/api
+```
 
 The frontend communicates with the backend through REST API endpoints. The exact endpoints depend on the controller implementation.
 
-Main API areas include:
-
-🔐 Authentication
+### 🔐 Authentication
 
 - User Registration
 - User Login
 - Forgot Password
 - Password Reset
 
-🛍️ Customer Operations
+### 🛍️ Customer Operations
 
 - Product Browsing
 - Cart Management
@@ -334,7 +342,7 @@ Main API areas include:
 - Product Reviews
 - Return Requests
 
-👨‍💼 Admin Operations
+### 👨‍💼 Admin Operations
 
 - Dashboard Statistics
 - Product Management
@@ -344,10 +352,11 @@ Main API areas include:
 
 ---
 
-🔐 JWT Authentication Flow
+## 🔐 JWT Authentication Flow
 
 FreshNest uses JWT-based authentication to secure protected application features.
 
+```text
 User Enters Credentials
           |
           v
@@ -373,12 +382,13 @@ Token Validation and Authorization
           |
           v
 Protected Resource Access
+```
 
 Passwords should be stored as secure hashes, and protected backend endpoints should enforce the appropriate authorization rules.
 
 ---
 
-⚙️ Prerequisites
+## ⚙️ Prerequisites
 
 Install the following software before running the application:
 
@@ -390,166 +400,192 @@ Install the following software before running the application:
 
 Verify your installations:
 
+```bash
 java -version
 node -v
 npm -v
 git --version
+```
 
 ---
 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 
-1. Clone the Repository
+### 1. Clone the Repository
 
-Use the HTTPS URL available from your GitHub repository's Code → HTTPS option.
+Use the HTTPS URL available from your GitHub repository's **Code → HTTPS** option.
 
+```bash
 git clone https://github.com/manes hvedpathak307-sys/Chicken-Delivery-System.git
+```
 
-Important: Replace the command above with your exact GitHub clone URL. Do not copy a URL containing spaces.
+**Important:** Replace the example above with the exact clone URL provided by GitHub. Ensure the URL contains no spaces.
 
 Open the project directory:
 
+```bash
 cd Chicken-Delivery-System
+```
 
-2. Configure MySQL
+### 2. Configure MySQL
 
 Start your MySQL server and create the database matching the name configured in your backend.
 
 For example:
 
+```sql
 CREATE DATABASE chicken_delivery_db;
+```
 
-If "backend/src/main/resources/application.properties" specifies a different database name, use that name instead.
+If `backend/src/main/resources/application.properties` specifies a different database name, use that name instead.
 
-3. Configure Backend Settings
+### 3. Configure Backend Settings
 
 Open the following file:
 
+```text
 backend/src/main/resources/application.properties
+```
 
 Configure the required MySQL connection details and JWT signing secret.
 
-Keep your actual database password, JWT secret, and other credentials out of the public GitHub repository. Use environment variables or a local configuration file excluded by ".gitignore".
+Keep your actual database password, JWT secret, and other credentials out of the public GitHub repository. Use environment variables or a local configuration file excluded by `.gitignore`.
 
-4. Run the Backend
+### 4. Run the Backend
 
 Open a terminal in VS Code and run:
 
+```bash
 cd backend
+```
 
 On Windows Command Prompt:
 
+```bash
 mvnw.cmd spring-boot:run
+```
 
 Alternatively, if Maven is installed globally:
 
+```bash
 mvn spring-boot:run
+```
 
 The backend is expected to run at:
 
-http://localhost:8080
+[http://localhost:8080](http://localhost:8080)
 
 Confirm the actual port from your backend configuration and startup log.
 
-5. Run the Frontend
+### 5. Run the Frontend
 
 Open a second terminal and navigate to the frontend directory:
 
+```bash
 cd frontend
+```
 
 Install the required dependencies:
 
+```bash
 npm install
+```
 
 Check the backend API URL in:
 
+```text
 frontend/src/services/api.js
+```
 
 For local development, the API base URL is commonly:
 
+```text
 http://localhost:8080/api
+```
 
 Use the URL configured for your application.
 
 Start the React frontend:
 
+```bash
 npm start
+```
 
 The frontend is expected to open at:
 
-http://localhost:3000
+[http://localhost:3000](http://localhost:3000)
 
 Keep both backend and frontend terminals running while testing the application.
 
 ---
 
-📸 Application Screenshots
+## 📸 Application Screenshots
 
 The following screenshots demonstrate the main FreshNest application pages.
 
-1. Guest Home Page
+### 1. Guest Home Page
 
-"FreshNest Guest Home" (./screenshots/01.Guest_Home.jpeg)
+![FreshNest Guest Home](./screenshots/01.Guest_Home.jpeg)
 
-2. Login Page
+### 2. Login Page
 
-"FreshNest Login Page" (./screenshots/02.Login_Page.jpeg)
+![FreshNest Login Page](./screenshots/02.Login_Page.jpeg)
 
-3. Create Account
+### 3. Create Account
 
-"FreshNest Create Account" (./screenshots/03.Create_Account.jpeg)
+![FreshNest Create Account](./screenshots/03.Create_Account.jpeg)
 
-4. Admin Dashboard
+### 4. Admin Dashboard
 
-"FreshNest Admin Dashboard" (./screenshots/04.Admin_Dashboard.jpeg)
+![FreshNest Admin Dashboard](./screenshots/04.Admin_Dashboard.jpeg)
 
-5. Admin Product Management
+### 5. Admin Product Management
 
-"FreshNest Admin Products" (./screenshots/05.Admin_Products.jpeg)
+![FreshNest Admin Products](./screenshots/05.Admin_Products.jpeg)
 
-6. Admin Order Management
+### 6. Admin Order Management
 
-"FreshNest Admin Orders" (./screenshots/06.Admin_Orders.jpeg)
+![FreshNest Admin Orders](./screenshots/06.Admin_Orders.jpeg)
 
-7. Admin Reports
+### 7. Admin Reports
 
-"FreshNest Admin Reports" (./screenshots/07.Admin_Reports.jpeg)
+![FreshNest Admin Reports](./screenshots/07.Admin_Reports.jpeg)
 
-8. PDF Report
+### 8. PDF Report
 
-"FreshNest PDF Report" (./screenshots/08.Report_pdf.jpeg)
+![FreshNest PDF Report](./screenshots/08.Report_pdf.jpeg)
 
-9. Customer Home Page
+### 9. Customer Home Page
 
-"FreshNest Customer Home" (./screenshots/09.User_Home.jpeg)
+![FreshNest Customer Home](./screenshots/09.User_Home.jpeg)
 
-10. Product Catalogue
+### 10. Product Catalogue
 
-"FreshNest Products" (./screenshots/10.User_Products.jpeg)
+![FreshNest Products](./screenshots/10.User_Products.jpeg)
 
-11. Shopping Cart
+### 11. Shopping Cart
 
-"FreshNest Shopping Cart" (./screenshots/11.My_Cart.jpeg)
+![FreshNest Shopping Cart](./screenshots/11.My_Cart.jpeg)
 
-12. Checkout Page
+### 12. Checkout Page
 
-"FreshNest Checkout" (./screenshots/12.Checkout.jpeg)
+![FreshNest Checkout](./screenshots/12.Checkout.jpeg)
 
-13. Order Details
+### 13. Order Details
 
-"FreshNest Order Details" (./screenshots/13.Order_Details.jpeg)
+![FreshNest Order Details](./screenshots/13.Order_Details.jpeg)
 
-14. My Orders
+### 14. My Orders
 
-"FreshNest My Orders" (./screenshots/14.User_Orders.jpeg)
+![FreshNest My Orders](./screenshots/14.User_Orders.jpeg)
 
-15. Customer Profile
+### 15. Customer Profile
 
-"FreshNest Customer Profile" (./screenshots/15.My_Profile.jpeg)
+![FreshNest Customer Profile](./screenshots/15.My_Profile.jpeg)
 
 ---
 
-🔒 Security and Configuration Notes
+## 🔒 Security and Configuration Notes
 
 - Keep database credentials outside the public repository.
 - Never publish real JWT signing secrets.
@@ -562,7 +598,7 @@ For a college project, use safe demonstration credentials and document the requi
 
 ---
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - Online Payment Gateway Integration
 - Live Order Tracking
@@ -577,20 +613,20 @@ For a college project, use safe demonstration credentials and document the requi
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Manesh Vedpathak
+**Manesh Vedpathak**
 
-Full Stack Java Developer
+**Full Stack Java Developer**
 
-Technologies: React.js | Java 21 | Spring Boot | Spring Security | JWT | MySQL
+**Technologies:** React.js | Java 21 | Spring Boot | Spring Security | JWT | MySQL
 
-GitHub: [Manesh Vedpathak](https://github.com/manes hvedpathak307-sys)
+**GitHub:** [Manesh Vedpathak](https://github.com/maneshvedpathak307-sys)
 
 ---
 
-⭐ Support
+## ⭐ Support
 
 If you find FreshNest interesting, consider starring the repository on GitHub.
 
-Thank you for checking out FreshNest – Chicken Delivery System!
+Thank you for checking out **FreshNest – Chicken Delivery System!**
